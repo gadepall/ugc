@@ -1,0 +1,44 @@
+\begin{table*}[!htb]
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Option 1} & To conclude that m = n.\\
+\hline
+Assumptions & Without loss of generality, Let m = 2, n = 3 and $\vec{A}$ = \myvec{1 & 0 & 0\\ 0 & 1 & 0} $\implies$ $\vec{A^t}$ = \myvec{1 & 0\\0 & 1\\0 & 0}\\
+\hline
+\multirow{3}{*}{Proof} & $\implies$ $\vec{AA^t}$ = \myvec{1 & 0 & 0\\ 0 & 1 & 0}\myvec{1 & 0\\0 & 1\\0 & 0} = \myvec{1 & 0\\0 & 1} = $\vec{I}$ $\implies$ $\brak{\vec{AA^t}}^r$ = $\vec{I}$ \\[0.5em] & But m $\neq$ n. Therefore, \textbf{Option 1} is incorrect.\\
+\hline
+\end{tabular}
+\end{table*}
+\begin{table*}[!htb]
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Option 2} & To conclude that $\vec{AA^t}$ is invertible.\\
+\hline
+Assumptions & $\vec{AA^t}$ is not invertible\\
+\hline
+\multirow{3}{*}{Proof} & $\implies$ $\mydet{\vec{AA^t}}$ = 0 $\implies$ $\mydet{\brak{\vec{AA^t}}^r}$ = 0 \\[0.5em] & $\implies$ $\brak{\vec{AA^t}}^r$ $\neq$ $\vec{I}$ \Big($\mydet{\vec{I}}$ = 1\Big) \\[0.5em] & Since, there is a contradiction to the assumption made we can conclude that \\ &  $\vec{AA^t}$ is invertible. Therefore, \textbf{Option 2} is correct.\\
+\hline
+\end{tabular}
+\end{table*}
+\begin{table*}[!htb]
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Option 3} & To conclude that $\vec{A^tA}$ is invertible.\\
+\hline
+Assumptions & Without loss of generality, Let m = 2, n = 3 and $\vec{A}$ = \myvec{1 & 0 & 0\\ 0 & 1 & 0} $\implies$ $\vec{A^t}$ = \myvec{1 & 0\\0 & 1\\0 & 0}\\
+\hline
+\multirow{3}{*}{Proof} & $\implies$ $\vec{A^tA}$ = \myvec{1 & 0 & 0\\0 & 1 & 0\\0 & 0 & 0} $\implies$ $\mydet{\vec{A^tA}}$ = 0 \\[0.5em] & This means that $\vec{A^tA}$ is not invertible. Therefore, \textbf{Option 3} is incorrect.\\
+\hline
+\end{tabular}
+\end{table*}
+\begin{table*}[!htb]
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Option 4} & To conclude that if m = n then $\vec{A}$ is invertible.\\
+\hline
+Assumptions & Let m = n\\
+\hline
+\multirow{3}{*}{Proof} & Since $\brak{\vec{AA^t}}^r$ = $\vec{I}$ $\implies$ $\mydet{\brak{\vec{AA^t}}^r}$ = $\mydet{\vec{I}}$ = 1 \\[0.5em] & $\implies$ $\brak{\mydet{\vec{A}}\mydet{\vec{A^t}}}^r$ = 1 \big($\vec{A}$ is a square matrix\big) \\[0.5em] & $\implies$  $\brak{\mydet{\vec{A}}}^{2r}$ = 1 \\[0.5em] & Therefore, \textbf{Option 4} is correct.\\
+\hline
+\end{tabular}
+\end{table*}
