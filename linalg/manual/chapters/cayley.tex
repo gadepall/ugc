@@ -1,0 +1,37 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item Let
+\begin{align}
+\vec{A}=\myvec{1&0&2\\1&-2&0\\0&0&-3}
+\end{align}
+and $\vec{I}$ be the $3\times3$ identity matrix. If 
+\begin{align}
+6\vec{A}^{-1}=a\vec{A}^2+b\vec{A}+c\vec{I} \label{eq:cayley1}
+\end{align} for $a,b,c \in \mathbb{R}$ then find (a,b,c)
+\\
+\solution \eqref{eq:cayley1} can be expressed as
+\begin{align}
+a\vec{A}^3+b\vec{A}^2+c\vec{A} 
+-6\vec{I} = 0
+\label{eq:cayley1_char}
+\end{align} 
+
+The characteristic polynomial of $\vec{A}$ is given by 
+\begin{align}
+\mydet{1-x&0&2\\1&-2-x&0\\0&0&-3-x} &=0
+\\
+\implies x^3 + 4x^2 + x - 6 = 0
+\label{eq:cayley1_char_x}
+\end{align}
+Comparing \eqref{eq:cayley1_char_x} and \eqref{eq:cayley1_char},
+\begin{align}
+(a,b,c) = (1,4,1)
+\end{align}
+
+
+
+\end{enumerate}

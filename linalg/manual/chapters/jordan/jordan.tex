@@ -1,0 +1,74 @@
+\subsection{Motivation}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item Consider the matrix
+
+\begin{align}
+\vec{A} = 
+\myvec
+{
+  5 &  4 &  2 &  1 \\[2pt]
+  0 &  1 & -1 & -1 \\[2pt]
+ -1 & -1 &  3 &  0 \\[2pt]
+  1 &  1 & -1 &  2
+}
+\label{eq:diag_exam_jord}
+\end{align}
+%
+%
+%
+The matrix $\vec{A}$ in \eqref{eq:diag_exam_jord} has the characteristic polynomial
+\begin{align} 
+p(x) & = \det(x \vec{I} - \vec{A}) \\ &  = x^4 - 11 x^3 + 42 x^2 - 64 x + 32  \\ & = (x-1)(x-2)(x-4)^2. \, 
+\end{align}
+Thus, the eigenvalues are given by $x = 1,2,4$.
+\item The eigenvectors corresponding to the above eigenvalues are
+\begin{align} 
+\vec{v}_1 = \myvec{-1\\ 1\\ 0\\ 0}, 
+\vec{v}_2 = \myvec{1\\ -1\\ 0\\ 1}, 
+\vec{v}_3 = \myvec{1\\ 0\\ -1\\ 1}, 
+\end{align}
+Clearly, the dimension of the eigenspace is $< 4$.  Hence, the matrix $\vec{A}$ is not diagonalizable.
+\end{enumerate}
+\subsection{Jordan Form}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item The Jordan decomposition of $\vec{A}$ is given by
+\begin{align}
+\vec{A} = \vec{P}^{-1}\vec{J}\vec{P}
+\label{eq:jord_mat}
+\end{align}
+%
+where
+%
+\begin{align}
+\vec{J} = 
+\myvec
+{
+  1 &  0 &  0 &  0 \\[2pt]
+  0 &  2 & 0 & 0 \\[2pt]
+ 0 & 0 &  4 &  1 \\[2pt]
+  0 &  0 & 0 &  4
+}
+\label{eq:diag_exam_jord_mat}
+\end{align}
+\item The matrix $\vec{P}$ in \label{eq:exam_jord_mat} is given by 
+\begin{align}
+\vec{P} = \myvec{\vec{v}_1 & \vec{v}_2 & \vec{v}_3 & \vec{v}_4 }
+\end{align}
+%
+where 
+\begin{align}
+\vec{A}\vec{v}_4 = \vec{v}_3   
+\end{align}
+$\vec{v}_4$ is defined to be the {\em generalized} eigenvector of $\vec{A}$.
+\end{enumerate}
+

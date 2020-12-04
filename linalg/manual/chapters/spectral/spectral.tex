@@ -1,0 +1,165 @@
+\subsection{Characteristic Polynomial}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item {\em Cayley-Hamilton Theorem: }Let
+\begin{align}
+\vec{A}=\myvec{1&0&2\\1&-2&0\\0&0&-3}
+\end{align}
+and $\vec{I}$ be the $3\times3$ identity matrix. If 
+\begin{align}
+6\vec{A}^{-1}=a\vec{A}^2+b\vec{A}+c\vec{I} \label{eq:cayley1}
+\end{align} for $a,b,c \in \mathbb{R}$ then find (a,b,c)
+\\
+\solution \eqref{eq:cayley1} can be expressed as
+\begin{align}
+a\vec{A}^3+b\vec{A}^2+c\vec{A} 
+-6\vec{I} = 0
+\label{eq:cayley1_char}
+\end{align} 
+
+The characteristic polynomial of $\vec{A}$ is given by 
+\begin{align}
+\mydet{1-x&0&2\\1&-2-x&0\\0&0&-3-x} &=0
+\\
+\implies x^3 + 4x^2 + x - 6 = 0
+\label{eq:cayley1_char_x}
+\end{align}
+Comparing \eqref{eq:cayley1_char_x} and \eqref{eq:cayley1_char},
+\begin{align}
+(a,b,c) = (1,4,1)
+\end{align}
+Consider the following matrices for the following examples
+\numberwithin{equation}{section}
+\begin{align}
+\vec{A} &=  \myvec{1&2&3\\0&4&5\\0&0&6}
+\vec{B} =  \myvec{0&1&0\\-1&0&0\\0&0&1}
+\\
+\vec{C} &=      \myvec{1&2&3\\2&1&4\\3&4&1}
+\vec{D} =      \myvec{0&1&2\\0&0&1\\0&0&0}
+\end{align}
+
+\numberwithin{equation}{enumi}
+
+\item The characteristic polynomial of $\vec{A}$ is given by
+\begin{align}
+\mydet{1-x &2&3\\0&4-x&5\\0&0&6-x} &= 0
+\\
+\implies \brak{x-1} \brak{x-4} \brak{x-6}&= 0
+\end{align}
+%
+The eigenvalues are $x = 1,4,6$.
+\item The characteristic polynomial of $\vec{B}$ is 
+\begin{align}
+\mydet{x&-1&0\\1&x&0\\0&0&x-1} &= 0
+\\
+\implies \brak{x-1}\brak{x^2+1}&= 0
+\end{align}
+%
+The eigenvalues are $x = 1, \pm \j$.
+\item The characteristic polynomial of $\vec{C}$ is 
+\begin{align}
+\mydet{1-x&2&3\\2&1-x&4\\3&4&1-x}
+\\
+\implies x^3 - 3x^2 - 26x - 20 &=0
+\end{align}
+%
+The eigenvalues are $x = 7.07467358$, $-0.88679099, -3.1878826$.
+\item The characteristic polynomial of $\vec{D}$ is 
+\begin{align}
+\mydet{0&1&2\\0&0&1\\0&0&0} &=0
+\\
+\implies x^3 = 0
+\end{align}
+%
+The matrix has a single eigenvalue at $x = 0$.
+\end{enumerate}
+\subsection{Diagonalizability}
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item  $\vec{A}$ and $\vec{C}$ have distinct real eigenvalues.  Hence they are diagonalizable.
+{\proof Suppose $\lambda_1,\lambda_2$ are eigenvalues of $\vec{A}$ with the same eigenvector $\vec{v}$.  Then
+\begin{align}
+\vec{A}\vec{v} = \lambda_1 \vec{v}
+\\
+\vec{A}\vec{v} = \lambda_2 \vec{v}
+\\
+\implies  \brak{\lambda_1 - \lambda_2}\vec{v} &= 0, 
+\text{or, } \lambda_1 &= \lambda_2
+\end{align}
+}
+\item $\vec{B}$ has distinct eigenvalues, but some are complex.  Hence, $\vec{B}$ is diagonalizable over $\mathbb{C}$, but not $\mathbb{R}$.
+
+\item $\vec{D}$ has only one eigenvalue 0, whose multiplicity is 3.  This is defined as the {\em algebraic multiplicty} of the eigenvalue.  The corresponding eigenvectors are obtained from
+\begin{align}
+\myvec{0&1&2\\0&0&1\\0&0&0}\vec{v} &=0
+\\
+\xleftrightarrow[]{R_1\leftarrow R_1-2R_2} \myvec{0&1&0\\0&0&1}\vec{v} &= 0
+\\
+\implies \vec{v} &= k\myvec{1 \\ 0 \\ 0}
+\end{align}
+%
+Thus, $\vec{D}$ has only one eigenvector and is not diagonalizable.
+\item Thus, 
+\begin{align}
+\sum_{i=1}^{3}\text{nullity}\brak{\vec{A}-\lambda_i\vec{I}} = 3
+\\
+\sum_{i=1}^{1}\text{nullity}\brak{\vec{D}-\lambda_i\vec{I}} = 1 < 3
+\end{align}
+%
+\item If the characteristic polynomial of an $n \times n$ matrix $\vec{X}$ is
+\begin{align}
+\prod_{i=1}^{k}\brak{x -\lambda_i}^{a_i} = 0
+\end{align}
+where
+\begin{align}
+\sum_{i=1}^{k}a_i = n
+\end{align}
+define the {\em geometric multiplicity} of $\lambda_i$ as
+\begin{align}
+g_i = \text{nullity}\brak{\vec{X}-\lambda_i\vec{I}} 
+\end{align}
+Then $\vec{X}$ is diagonalizable iff
+\begin{align}
+g_i &= a_i
+\\
+\sum_{i=1}^{k}g_i &= n
+\label{eq:diag_geom_cond}
+\end{align}
+%
+%
+\end{enumerate}
+\subsection{Example}
+For any $n\times n$ matrix $B$, let $N(\vec{B})=\{X\in \mathbb{R}^n:\vec{B}\vec{x}=0\}$ be the null space of $\vec{B}$. Let $\vec{B}$ be a $4\times 4$ matrix with $\text{dim}(N(\vec{A}-4\vec{I}))=2, \text{dim}(N(\vec{A}-2\vec{I}))=1$ and $\text{rank}(\vec{A})=3$.
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesubsection.\arabic*.,ref=\thesubsection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+
+\item  $\because \text{rank}(\vec{A})=3$, using the rank-nullity theorem,
+\begin{align}
+\text{nullity}\brak{\vec{A}}=4-3 = 1
+\\
+\implies \exists \vec{x} \ni \vec{A}\vec{x} = 0
+\end{align}
+Thus, 0 is an eigenvalue of $\vec{A}$ and  the eigenvalues of $\vec{A}$ are $0,2,4$.
+\item From the given information, the geometric multiplicities of 0, 2, 4 are respectively,
+\begin{align}
+g_1 = 1, g_2 = 1, g_3 = 2
+\end{align}
+and substituting in \ref{eq:diag_geom_cond},
+%
+\begin{align}
+\sum_{i=1}^{3}g_i &= 4
+\end{align}
+$\therefore \vec{A}$ is diagonalizable.
+
+\end{enumerate}
