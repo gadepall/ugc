@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  4 DEC 2020 15:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  5 DEC 2020 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2077,11 +2077,11 @@ Package rerunfilecheck Info: File `gvv_ugc_linman.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 312.
  ) 
 Here is how much of TeX's memory you used:
- 42618 strings out of 480608
- 994233 string characters out of 5892806
- 1380137 words of memory out of 5000000
+ 42633 strings out of 480608
+ 994359 string characters out of 5892806
+ 1379137 words of memory out of 5000000
  57572 multiletter control sequences out of 15000+600000
- 620850 words of font info for 219 fonts, out of 8000000 for 9000
+ 622200 words of font info for 221 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,18n,91p,506b,860s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
@@ -2099,10 +2099,10 @@ exlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files
 .termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></d
 ata/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on gvv_ugc_linman.pdf (3 pages, 589078 bytes).
+Output written on gvv_ugc_linman.pdf (3 pages, 590569 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 180 compressed objects within 2 object streams
- 70 named destinations out of 1000 (max. 500000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 196 compressed objects within 2 object streams
+ 83 named destinations out of 1000 (max. 500000)
  175 words of extra memory for PDF output out of 10000 (max. 10000000)
 

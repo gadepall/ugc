@@ -32,7 +32,13 @@ Thus, the eigenvalues are given by $x = 1,2,4$.
 \vec{v}_2 = \myvec{1\\ -1\\ 0\\ 1}, 
 \vec{v}_3 = \myvec{1\\ 0\\ -1\\ 1}, 
 \end{align}
-Clearly, the dimension of the eigenspace is $< 4$.  Hence, the matrix $\vec{A}$ is not diagonalizable.
+\item Hence the geometric multiplicity of each eigenvalue is 1.
+
+\item Clearly, the dimension of the eigenspace is $< 4$.  Hence, the matrix $\vec{A}$ is not diagonalizable.
+\item The minimal polynomial 
+\begin{align} 
+m(x) & = (x-1)(x-2)(x-4)^2. \, 
+\end{align}
 \end{enumerate}
 \subsection{Jordan Form}
 \renewcommand{\theequation}{\theenumi}
@@ -41,6 +47,27 @@ Clearly, the dimension of the eigenspace is $< 4$.  Hence, the matrix $\vec{A}$ 
 \numberwithin{equation}{enumi}
 \numberwithin{figure}{enumi}
 
+\item To find the jordan form for a matrix $\vec{A}$,
+\begin{enumerate}
+\item The eigenvalues $\lambda_i$ are the entries down the diagonal 
+\item If the minimal polynomial is
+\begin{align}
+m_{\vec{A}}(x) = \prod_{i=1}^{k}\brak{x - \lambda_i}^{s_i}
+\end{align}
+then $s_i$ is the size of the largest $\lambda_i$ block in $\vec{A}$.
+\item If the characteristic polynomial is
+\begin{align}
+p_{\vec{A}}(x) = \prod_{i=1}^{k}\brak{x - \lambda_i}^{r_i}
+\end{align}
+then $r_i$ is the number of occurences of $\lambda_i$ on the diagonal.
+\item The geometric multiplicity of $\lambda_i$ is the number of $\lambda_i$-blocks in $\vec{A}$.
+\end{enumerate}
+\item Since the power of $\lambda_3 = 4$ in the minimal polynomial is 2, the size of its largest
+Jordan block is 2 and given by
+\begin{align}
+\myvec{4 & 1 \\ 0 & 4}
+\end{align}
+Also, the geometric multiplicity of $\lambda_3 = 4$ is 1,  so there is only one such block.
 \item The Jordan decomposition of $\vec{A}$ is given by
 \begin{align}
 \vec{A} = \vec{P}^{-1}\vec{J}\vec{P}
@@ -71,4 +98,3 @@ where
 \end{align}
 $\vec{v}_4$ is defined to be the {\em generalized} eigenvector of $\vec{A}$.
 \end{enumerate}
-
