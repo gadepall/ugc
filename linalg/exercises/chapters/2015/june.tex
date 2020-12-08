@@ -1,0 +1,19 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item Let $\vec{A}$ be an invertible $4 \times 4$ real matrix. Which of the following are NOT true ? 
+\begin{enumerate}
+\item  Rank $\vec{A}$ =4
+\item For every vector $\vec{b} \in \mathbb{R}$, $\vec{A}\vec{x}=\vec{b}$ has exactly one solution. 
+\item dim(nullspace $\vec{A}$)$\geq$ 1
+\item 0 is an eigenvalue of $\vec{A}$
+\end{enumerate}
+
+\solution
+\input{solutions/2015/june/76/solution.tex}
+
+\end{enumerate}

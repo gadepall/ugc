@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  7 DEC 2020 21:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  8 DEC 2020 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2014,7 +2014,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=55, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=67, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 247.
@@ -2026,7 +2026,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 247.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 247.
-<tlc.pdf, id=56, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=68, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 247.
@@ -2073,7 +2073,10 @@ Overfull \hbox (14.40588pt too wide) in paragraph at lines 247--247
 \tf@toc=\write5
 \openout5 = `gvv_ugc_linexer.toc'.
 
- (./chapters/2019.tex [1
+ (./chapters/2019.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
 Non-PDF special ignored!
 <special> papersize=614.295pt,794.96999pt
 {/data/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/map/pdftex/updm
@@ -2090,10 +2093,34 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Overfull \vbox (2.11772pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (2.11772pt too high) has occurred while \output is active []
 
 )
-(./chapters/2018/dec.tex [3] (./solutions/2018/dec/28/solution.tex
+(./chapters/2018/dec.tex (./solutions/2018/dec/27/solution.tex [3]
+Underfull \hbox (badness 10000) in paragraph at lines 39--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+\OT1/txr/m/n/12 The vec-tors lin-early in-de-pen-dent and
+ []
+
+
+Underfull \hbox (badness 3724) in paragraph at lines 58--62
+\OT1/txr/m/n/12 rank($\OT1/txr/bx/n/12 W$\OT1/txr/m/n/12 )=2 ($\OML/txmi/m/it/1
+2 <$ \OT1/txr/m/n/12 3), then the vec-tor span
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--62
+
+ []
+
+) (./solutions/2018/dec/28/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--7
 []|\OT1/txr/m/n/12 Linear
  []
@@ -2125,6 +2152,9 @@ Overfull \hbox (0.822pt too wide) in paragraph at lines 6--12
  []
 
 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
 Overfull \hbox (7.74442pt too wide) in paragraph at lines 29--29
 [] 
  []
@@ -2149,23 +2179,21 @@ Overfull \hbox (22.7928pt too wide) in paragraph at lines 19--46
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 76.
-
-
-LaTeX Warning: Command \j invalid in math mode on input line 76.
-
-
-Underfull \vbox (badness 1259) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
+
+LaTeX Warning: Command \j invalid in math mode on input line 76.
+
+
+LaTeX Warning: Command \j invalid in math mode on input line 76.
+
 (./solutions/2018/dec/31/solution.tex
 Overfull \hbox (11.3893pt too wide) in paragraph at lines 7--34
  [][] 
  []
 
-[5
-
-]
+[5] [6]
 Overfull \hbox (33.63837pt too wide) in alignment at lines 38--65
  [] [] 
  []
@@ -2184,28 +2212,40 @@ Overfull \hbox (33.63837pt too wide) in alignment at lines 95--117
  [] [] 
  []
 
-[6
+[7
 
 ]
 Overfull \hbox (33.63837pt too wide) in alignment at lines 117--127
  [] [] 
  []
 
-[7]
+[8]
 Underfull \vbox (badness 10000) detected at line 152
  []
 
-[8]) (./solutions/2018/dec/71/solution.tex [9
+[9]) (./solutions/2018/dec/68/solution.tex [10
 
 
-] [10]
-Underfull \vbox (badness 10000) detected at line 70
+]
+Underfull \vbox (badness 10000) detected at line 48
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 109
  []
 
 [11
 
+] [12] [13]) (./solutions/2018/dec/71/solution.tex [14
 
-] [12]) (./solutions/2018/dec/73/solution.tex [13
+
+]
+Underfull \vbox (badness 10000) detected at line 70
+ []
+
+[15
+
+] [16]) (./solutions/2018/dec/73/solution.tex [17
 
 
 ]
@@ -2227,18 +2267,18 @@ Overfull \hbox (40.2012pt too wide) in alignment at lines 98--101
  [] [] 
  []
 
-[14
+[18
 
-] [15]) (./solutions/2018/dec/74/solution.tex [16
+] [19]) (./solutions/2018/dec/74/solution.tex [20
 
 
 ]
 Underfull \vbox (badness 10000) detected at line 72
  []
 
-[17
+[21
 
-] [18] [19]) (./solutions/2018/dec/75/solution.tex
+] [22] [23]) (./solutions/2018/dec/75/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 33--36
 []|\OT1/txr/bx/n/12 False\OT1/txr/m/n/12 . $(\OML/txmi/m/it/12 T \OMS/txsy/m/n/
 12 ^^@ \OT1/txr/m/n/12 2\OT1/txr/bx/n/12 I\OT1/txr/m/n/12 )$ =
@@ -2267,15 +2307,15 @@ Overfull \hbox (15.08997pt too wide) in paragraph at lines 46--88
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/2018/dec/77/solution.tex [20
+(./solutions/2018/dec/77/solution.tex [24
 
-] [21] [22]
+] [25] [26]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23
+ [27
 
 ]
-[24]) (./solutions/2018/dec/78/solution.tex [25
+[28]) (./solutions/2018/dec/78/solution.tex [29
 
 
 ]
@@ -2287,9 +2327,9 @@ Overfull \hbox (25.38686pt too wide) in paragraph at lines 44--104
 [][] 
  []
 
-[26
+[30
 
-] [27]) (./solutions/2018/dec/106/solution.tex [28
+] [31]) (./solutions/2018/dec/106/solution.tex [32
 
 
 ]
@@ -2315,7 +2355,7 @@ Overfull \hbox (25.18906pt too wide) in alignment at lines 74--94
  [] [] 
  []
 
-[29
+[33
 
 ]
 Overfull \hbox (25.18906pt too wide) in alignment at lines 94--123
@@ -2327,21 +2367,21 @@ Overfull \hbox (25.18906pt too wide) in alignment at lines 123--146
  [] [] 
  []
 
-[30]
+[34]
 Overfull \hbox (25.18906pt too wide) in alignment at lines 146--157
  [] [] 
  []
 
-[31])) (./chapters/2018/june.tex (./solutions/2018/june/27/solution.tex)
+[35])) (./chapters/2018/june.tex (./solutions/2018/june/27/solution.tex)
 Underfull \hbox (badness 4132) in paragraph at lines 18--21
 []\OT1/txr/m/n/12 If $\OT1/txr/bx/n/12 A$ \OT1/txr/m/n/12 is a $[]$ ma-trix ove
 r $\U/txsyb/m/n/12 R$ \OT1/txr/m/n/12 with
  []
 
-(./solutions/2018/june/28/solution.tex [32
+(./solutions/2018/june/28/solution.tex [36
 
 
-] [33]
+] [37]
 Overfull \hbox (21.34958pt too wide) in alignment at lines 4--31
  [] [] 
  []
@@ -2370,7 +2410,7 @@ Overfull \hbox (21.34958pt too wide) in alignment at lines 79--106
  [] [] 
  []
 
-[34
+[38
 
 
 ]
@@ -2381,16 +2421,24 @@ Overfull \hbox (21.34958pt too wide) in alignment at lines 106--118
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35])
+ [39])
 (./solutions/2018/june/30/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36
 
-]
-(./solutions/2018/june/74/solution.tex [37
+(./solutions/2018/june/31/solution.tex
+Underfull \hbox (badness 1755) in paragraph at lines 26--26
+\OT1/txr/m/n/12 Now, sub-sti-tu-ing val-ues from [], [],
+ []
 
-]
+
+Underfull \hbox (badness 1755) in paragraph at lines 26--26
+\OT1/txr/m/n/12 Now, sub-sti-tu-ing val-ues from [], [],
+ []
+
+) [40
+
+] (./solutions/2018/june/74/solution.tex [41]
 Overfull \hbox (30.38492pt too wide) in alignment at lines 4--60
  [] [] 
  []
@@ -2404,9 +2452,9 @@ Overfull \hbox (30.38492pt too wide) in alignment at lines 60--83
  [] [] 
  []
 
-[38
+[42
 
-] [39]) (./solutions/2018/june/75/solution.tex [40
+] [43]) (./solutions/2018/june/75/solution.tex [44
 
 
 ]
@@ -2417,16 +2465,16 @@ Underfull \vbox (badness 10000) detected at line 45
 Underfull \vbox (badness 10000) detected at line 105
  []
 
-[41
+[45
 
-] [42])
+] [46])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./solutions/2018/june/105/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [47
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 68--70
@@ -2449,7 +2497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [44]
+ [48]
 Underfull \hbox (badness 10000) in paragraph at lines 96--99
 
  []
@@ -2458,11 +2506,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--99
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ))
-(./chapters/2017/dec.tex (./solutions/2017/dec/29/solution.tex [45]
+(./chapters/2017/dec.tex (./solutions/2017/dec/29/solution.tex [49]
 Underfull \vbox (badness 10000) detected at line 38
  []
 
-) [46
+) [50
 
 ] (./solutions/2017/dec/30/solution.tex)
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
@@ -2474,7 +2522,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./solutions/2017/dec/31/solution.tex) (./solutions/2017/dec/51/solution.tex
-[47
+[51
 
 ]) (./solutions/2017/dec/72/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 10--14
@@ -2503,7 +2551,7 @@ File: omstxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
 (Font)              Font shape `OMS/txsy/m/n' tried instead on input line 69.
- (./solutions/2017/dec/74/solution.tex [48] [49]
+ (./solutions/2017/dec/74/solution.tex [52] [53]
 Overfull \hbox (40.12202pt too wide) in alignment at lines 3--27
  [] [] 
  []
@@ -2517,9 +2565,9 @@ Overfull \hbox (40.12202pt too wide) in alignment at lines 27--47
  [] [] 
  []
 
-[50
+[54
 
-]) (./solutions/2017/dec/75/solution.tex [51]
+]) (./solutions/2017/dec/75/solution.tex [55]
 Overfull \hbox (22.64503pt too wide) in alignment at lines 4--48
  [] [] 
  []
@@ -2540,9 +2588,9 @@ Overfull \hbox (22.64503pt too wide) in alignment at lines 89--133
  [] [] 
  []
 
-[52
+[56
 
-]) [53]
+]) [57]
 Underfull \hbox (badness 10000) in paragraph at lines 90--93
 
  []
@@ -2579,19 +2627,19 @@ LaTeX Warning: Float too large for page by 9.28831pt on input line 83.
 ) (./solutions/2017/dec/78/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54
+ [58
 
 ]
-(./solutions/2017/dec/105/solution.tex [55
+(./solutions/2017/dec/105/solution.tex [59
 
-] [56] [57] [58] [59]
+] [60] [61] [62] [63]
 Underfull \vbox (badness 10000) detected at line 161
  []
 
-[60
+[64
 
 
-])) [61] (./chapters/2017/june.tex (./solutions/2017/june/27/solution.tex)
+])) [65] (./chapters/2017/june.tex (./solutions/2017/june/27/solution.tex)
 (./solutions/2017/june/28/solution.tex
 
 LaTeX Warning: Float too large for page by 43.53981pt on input line 64.
@@ -2603,7 +2651,7 @@ Underfull \vbox (badness 3209) has occurred while \output is active []
 (./solutions/2017/june/30/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62
+ [66
 
 ]
 Overfull \hbox (9.23238pt too wide) in paragraph at lines 7--7
@@ -2616,7 +2664,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [63])
+ [67])
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -2638,7 +2686,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/2017/june/32/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
+ [68]
 (./solutions/2017/june/70/solution.tex)
 Underfull \hbox (badness 5607) in paragraph at lines 101--102
 \OT1/txr/m/n/12 trans-for-ma-tion of \OT1/txr/bx/n/12 V \OT1/txr/m/n/12 to it-s
@@ -2655,9 +2703,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-(./solutions/2017/june/71/solution.tex [65
+(./solutions/2017/june/71/solution.tex [69
 
-] [66] [67]
+] [70] [71]
 Overfull \hbox (26.86928pt too wide) in alignment at lines 8--26
  [] [] 
  []
@@ -2684,7 +2732,7 @@ Overfull \hbox (8.54997pt too wide) in alignment at lines 76--105
  [] [] 
  []
 
-[68
+[72
 
 
 ])
@@ -2717,7 +2765,7 @@ Overfull \hbox (19.9865pt too wide) in alignment at lines 4--29
  [] [] 
  []
 
-[69]
+[73]
 Underfull \vbox (badness 10000) detected at line 29
  []
 
@@ -2726,12 +2774,12 @@ Overfull \hbox (19.9865pt too wide) in alignment at lines 29--51
  [] [] 
  []
 
-[70]
+[74]
 Overfull \hbox (19.9865pt too wide) in alignment at lines 51--73
  [] [] 
  []
 
-[71])
+[75])
 Underfull \hbox (badness 1466) in paragraph at lines 148--150
 []\OT1/txr/m/n/12 Which of the fol-low-ing 3x3 ma-tri-ces are
  []
@@ -2744,8 +2792,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 (./solutions/2017/june/75/solution.tex
 Underfull \vbox (badness 1014) has occurred while \output is active []
 
- [72]
-[73] [74]
+ [76]
+[77] [78]
 Overfull \hbox (15.30087pt too wide) in alignment at lines 5--29
  [] [] 
  []
@@ -2773,7 +2821,7 @@ Overfull \hbox (38.54475pt too wide) in alignment at lines 92--123
  [] [] 
  []
 
-[75
+[79
 
 ]
 Overfull \hbox (38.54475pt too wide) in alignment at lines 123--147
@@ -2785,12 +2833,12 @@ Overfull \hbox (38.54475pt too wide) in alignment at lines 147--177
  [] [] 
  []
 
-[76]
+[80]
 Overfull \hbox (38.54475pt too wide) in alignment at lines 177--185
  [] [] 
  []
 
-) [77] (./solutions/2017/june/77/solution.tex)
+) [81] (./solutions/2017/june/77/solution.tex)
 (./solutions/2017/june/78/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2798,13 +2846,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)) (./chapters/2016/dec.tex (./solutions/2016/dec/22/solution.tex [78
+)) (./chapters/2016/dec.tex (./solutions/2016/dec/22/solution.tex [82
 
 ])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/2016/dec/27/solution.tex [79]
+(./solutions/2016/dec/27/solution.tex [83]
 Overfull \hbox (21.34958pt too wide) in alignment at lines 4--46
  [] [] 
  []
@@ -2813,7 +2861,7 @@ Overfull \hbox (21.34958pt too wide) in alignment at lines 4--46
 Underfull \vbox (badness 10000) detected at line 46
  []
 
-[80
+[84
 
 ]) (./solutions/2016/dec/30/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--15
@@ -2857,7 +2905,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./solutions/2016/dec/31/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81
+ [85
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2865,7 +2913,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
+ [86]
 Underfull \hbox (badness 10000) in paragraph at lines 38--42
 
  []
@@ -2889,7 +2937,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-(./solutions/2016/dec/32/solution.tex [83]
+(./solutions/2016/dec/32/solution.tex [87]
 Overfull \hbox (289.0699pt too wide) in paragraph at lines 18--18
 [] 
  []
@@ -2908,7 +2956,7 @@ Overfull \hbox (23.65843pt too wide) in alignment at lines 48--85
  [] [] 
  []
 
-[84
+[88
 
 ]
 Overfull \hbox (23.65843pt too wide) in alignment at lines 85--91
@@ -2918,21 +2966,21 @@ Overfull \hbox (23.65843pt too wide) in alignment at lines 85--91
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85])
+ [89])
 (./solutions/2016/dec/72/solution.tex) (./solutions/2016/dec/73/solution.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 (./solutions/2016/dec/74/solution.tex) (./solutions/2016/dec/75/solution.tex
-[86
+[90
 
-] [87] [88]
+] [91] [92]
 Underfull \vbox (badness 10000) detected at line 58
  []
 
-[89
+[93
 
-] [90]) [91] (./solutions/2016/dec/76/solution.tex
+] [94]) [95] (./solutions/2016/dec/76/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -2960,29 +3008,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-(./solutions/2016/dec/77/solution.tex [92
+(./solutions/2016/dec/77/solution.tex [96
 
-] [93]
+] [97]
 Underfull \vbox (badness 10000) detected at line 30
  []
 
-[94
+[98
 
-]) [95])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+]) [99]) (./chapters/2015/dec.tex (./solutions/2015/dec/77/solution.tex
+[100
+
+
+]
+Underfull \vbox (badness 10000) detected at line 26
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 42
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 67
+ []
+
+[101
+
+] [102])) (./chapters/2015/june.tex (./solutions/2015/june/76/solution.tex
+[103
+
+
+]
+Underfull \vbox (badness 10000) detected at line 53
+ []
+
+[104
+
+]))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 313.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 313.
  (./gvv_ugc_linexer.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 313.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 313.
 Package rerunfilecheck Info: File `gvv_ugc_linexer.out' has not changed.
-(rerunfilecheck)             Checksum: E8444E5391FCEA0CAF0292BE71BBD5B2;276.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
+(rerunfilecheck)             Checksum: AAF479DD27D3C010CA5183E3EC0AD783;412.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 313.
  ) 
 Here is how much of TeX's memory you used:
- 44865 strings out of 480608
- 1043591 string characters out of 5892806
- 1463327 words of memory out of 5000000
- 58695 multiletter control sequences out of 15000+600000
+ 45011 strings out of 480608
+ 1046465 string characters out of 5892806
+ 1464005 words of memory out of 5000000
+ 58742 multiletter control sequences out of 15000+600000
  633159 words of font info for 250 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,29n,91p,1603b,1237s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3005,10 +3081,10 @@ fonts/type1/urw/times/utmb8a.pfb></data/data/com.termux/files/usr/share/texlive
 /texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.termux/files/usr/
 share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></data/data/com.termu
 x/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on gvv_ugc_linexer.pdf (95 pages, 870011 bytes).
+Output written on gvv_ugc_linexer.pdf (104 pages, 892408 bytes).
 PDF statistics:
- 1856 PDF objects out of 2073 (max. 8388607)
- 1668 compressed objects within 17 object streams
- 1010 named destinations out of 1200 (max. 500000)
- 167 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2123 PDF objects out of 2487 (max. 8388607)
+ 1828 compressed objects within 19 object streams
+ 1089 named destinations out of 1200 (max. 500000)
+ 191 words of extra memory for PDF output out of 10000 (max. 10000000)
 

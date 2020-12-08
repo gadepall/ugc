@@ -1,0 +1,20 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item Let $\vec{A}$ be an $n\times n$ matrix over $\mathbb{C}$ such that every non-zero vector $\mathbb{C}^n$ is an eigen vector of $\vec{A}$.Then
+\begin{enumerate}
+    \item All eigen values of $\vec{A}$ are equal.
+    \item All eigen values of $\vec{A}$ are distinct.
+    \item $\vec{A}=\lambda\vec{I}$ for some $\lambda \in \mathbb{C}$, where $\vec{I}$ is the $n\times n$ identity matrix.
+    \item If $\chi_\vec{A}$ and $m_\vec{A}$ denote the characteristic polynomial and the minimal polynomial respectively, then $\chi_\vec{A}=m_\vec{A}$
+\end{enumerate}
+%
+
+\solution
+\input{solutions/2015/dec/77/solution.tex}
+
+\end{enumerate}
