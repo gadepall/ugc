@@ -5,6 +5,17 @@
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
+\item Let $\vec{S}: \mathbb R^n \rightarrow \mathbb R^n$ be given by $\vec{S}(\vec{v}) = \alpha\vec{v}$, for a fixed $\alpha \in \mathbb R, \alpha \neq 0$. Let $\vec{T}: \mathbb R^n \rightarrow \mathbb R^n$ be a linear transformation such that $\vec{B} = \{ \vec{v}_1,\ldots,\vec{v}_n \}$ is a set of linearly independent eigenvectors of $\vec{T}$. Then
+\begin{enumerate}
+    \item The matrix of $\vec{T}$ with respect to $\vec{B}$ is diagonal
+    \item The matrix of $(\vec{T}-\vec{S})$ with respect to $\vec{B}$ is diagonal
+    \item The matrix of $\vec{T}$ with respect to $\vec{B}$ is not necessarily diagonal, but is upper triangular
+    \item The matrix of $\vec{T}$ with respect to $\vec{B}$ is diagonal but the matrix of $(\vec{T}-\vec{S})$ with respect to $\vec{B}$ is not diagonal.
+\end{enumerate}
+%
+\solution
+\input{solutions/2015/june/72/solution.tex}
+
 \item Let $\vec{A}$ be an invertible $4 \times 4$ real matrix. Which of the following are NOT true ? 
 \begin{enumerate}
 \item  Rank $\vec{A}$ =4
@@ -12,8 +23,28 @@
 \item dim(nullspace $\vec{A}$)$\geq$ 1
 \item 0 is an eigenvalue of $\vec{A}$
 \end{enumerate}
-
+%
 \solution
 \input{solutions/2015/june/76/solution.tex}
+\item 	Consider non-zero vector spaces $\vec{V_1}, \vec{V_2}, \vec{V_3}, \vec{V_4}$ and linear transformations $\phi_1 : \vec{V_1} \rightarrow \vec{V_2}$, $\phi_2 : \vec{V_2} \rightarrow \vec{V_3}$, $\phi_3 : \vec{V_3} \rightarrow \vec{V_4}$ such that $Ker(\phi_1) = \{0\}$, $Range(\phi_1) = Ker(\phi_2)$, $Range(\phi_2) = Ker(\phi_3)$, $Range(\phi_3) = \vec{V_4}$. Then \\
+	
+	\begin{enumerate}
+		\item $\sum_{i=1}^{4} \ (-1)^{i} \ dim \ \vec{V_i} = 0$ \\
+		\item $\sum_{i=2}^{4} \ (-1)^{i} \ dim \ \vec{V_i} > 0$ \\
+		\item $\sum_{i=1}^{4} \ (-1)^{i} \ dim \ \vec{V_i} < 0$ \\
+		\item $\sum_{i=1}^{4} \ (-1)^{i} \ dim \ \vec{V_i} \neq 0$
+	\end{enumerate}
+%
+\solution
+\input{solutions/2015/june/77/solution.tex}
+\item Let $\vec{u}$ be a real n $\times$ 1 vector satisfying $\vec{u}^T\vec{u}=1$, where $\vec{u}^T$ is the transpose of $\vec{u}$.Define\\
+$\vec{A}=\vec{I}-2\vec{u}\vec{u}^T$ where $\vec{I}$ is the $n^{th}$ order identity matrix.Which of the following statements are true?\\
+1. $\vec{A}$ is singular\\
+2. $\vec{A}^2=\vec{A}$\\
+3. Trace($\vec{A}$)=n-2\\
+4. $\vec{A}^2=\vec{I}$\\
+%
+\solution
+\input{solutions/2015/june/78/solution.tex}
 
 \end{enumerate}

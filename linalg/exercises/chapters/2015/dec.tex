@@ -5,6 +5,27 @@
 \numberwithin{figure}{enumi}
 \numberwithin{table}{enumi}
 
+%
+\item Let $\vec{V}$ be a finite dimensional vector space over $\mathbb{R}$. Let $T:\vec{V}\rightarrow\vec{V}$ be a linear transformation such that $rank(\vec{T}^2)=rank(\vec{T})$. Then,
+\begin{enumerate}
+    \item $Kernel(\vec{T}^2)=Kernel(\vec{T})$
+    \item $Range(\vec{T}^2)=Range(\vec{T})$
+    \item $Kernel(\vec{T})\cap Range(\vec{T})=\cbrak{0}$.
+    \item $Kernel(\vec{T}^2)\cap Range(\vec{T}^2)=\cbrak{0}$.
+\end{enumerate}
+%
+\solution
+\input{solutions/2015/dec/74/solution.tex}
+\item  Let $\vec{A}$ be an m x n real matrix and $\vec{b}\in \mathbb{R}^m$ with $b\neq 0$.
+\begin{enumerate}
+    \item The set of all real solutions of $\vec{A}x=\vec{b}$ is a vector space.\\
+    \item If u nd v are two solutions of $\vec{A}x=\vec{b}$ then $\lambda u  +\brak{1-\lambda}v$ is also a solution of $\vec{A}x=\vec{b}$\\
+    \item For any two solutions u and v of $\vec{A}x=\vec{b}$, the linear combination $\lambda u$ + $\brak{1-\lambda}v$ is also a solution of $\vec{A}x=\vec{b}$ only when $0\leq\lambda\leq1.$\\
+    \item If rank of $\vec{A}$ is n ,then $\vec{A}x=\vec{b}$ has at most one solution.\ 
+    \end{enumerate}
+%
+\solution
+\input{solutions/2015/dec/76/solution.tex}
 \item Let $\vec{A}$ be an $n\times n$ matrix over $\mathbb{C}$ such that every non-zero vector $\mathbb{C}^n$ is an eigen vector of $\vec{A}$.Then
 \begin{enumerate}
     \item All eigen values of $\vec{A}$ are equal.
@@ -16,5 +37,20 @@
 
 \solution
 \input{solutions/2015/dec/77/solution.tex}
+\item 	Consider a matrix,
+	\begin{align}
+	\vec{A} = \myvec{2 & 2 & 1 \\0 & 2 & -1 \\ 0 & 0 & 3}\\ \intertext{and,} \vec{B} = \myvec{2 & 1 & 0 \\ 0 & 2 & 0 \\ 0 & 0 & 3}
+	\end{align}
+	
+Then which of following is true,
+\begin{enumerate}
+\item $\vec{A}$ and $\vec{B}$ is similar over the field of rational numbers.
+\item $\vec{A}$ is diagonalizable over the field of rational numbers $\mathbb{Q}$.
+\item $\vec{B}$ is the Jordan canonical form of $\vec{A}$.
+\item The minimal polynomial and the characteristic polynomial of $\vec{A}$ are the same.
+\end{enumerate}
+%
+\solution
+\input{solutions/2015/dec/78/solution.tex}
 
 \end{enumerate}
