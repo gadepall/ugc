@@ -1,0 +1,20 @@
+\renewcommand{\theequation}{\theenumi}
+\renewcommand{\thefigure}{\theenumi}
+\begin{enumerate}[label=\thesection.\arabic*.,ref=\thesection.\theenumi]
+\numberwithin{equation}{enumi}
+\numberwithin{figure}{enumi}
+\numberwithin{table}{enumi}
+
+\item Which of the following matrices have Jordan canonical form equal to
+\begin{align*}
+        \myvec{0&1&0\\0&0&0\\0&0&0}?
+\end{align*}
+\begin{align*}
+    \mbox{1. }\myvec{0&0&1\\0&0&0\\0&0&0}&&\mbox{2. }\myvec{0&0&1\\0&0&1\\0&0&0}\\
+    \mbox{3. }\myvec{0&1&1\\0&0&0\\0&0&0}&&\mbox{4. }\myvec{0&1&1\\0&0&1\\0&0&0}
+\end{align*}
+%
+\solution
+\input{solutions/2015/dec/71/solution.tex}
+
+\end{enumerate}
