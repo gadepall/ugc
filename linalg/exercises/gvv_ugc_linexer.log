@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  11 DEC 2020 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  11 DEC 2020 17:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3505,35 +3505,50 @@ Underfull \vbox (badness 10000) detected at line 49
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
-(./solutions/2015/june/76/solution.tex [154
+(./solutions/2015/june/74/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154
+
+]
+[155
+
+]
+Underfull \vbox (badness 10000) detected at line 29
+ []
+
+[156
+
+]) (./solutions/2015/june/76/solution.tex [157
+
 
 ]
 Underfull \vbox (badness 10000) detected at line 53
  []
 
-[155
+[158
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-(./solutions/2015/june/77/solution.tex [156
+(./solutions/2015/june/77/solution.tex [159
 
 
 ]
@@ -3554,37 +3569,37 @@ Overfull \hbox (14.85826pt too wide) in alignment at lines 30--44
 Underfull \vbox (badness 10000) detected at line 68
  []
 
-[157
+[160
 
-] [158]
+] [161]
 Underfull \vbox (badness 10000) detected at line 187
  []
 
-[159] [160] [161]) (./solutions/2015/june/78/solution.tex
+[162] [163] [164]) (./solutions/2015/june/78/solution.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[162
+[165
 
 
 ]
 Underfull \vbox (badness 10000) detected at line 59
  []
 
-[163
+[166
 
-] [164] [165])) (./chapters/2014/dec.tex
-(./solutions/2014/dec/71/solution.tex [166
+] [167] [168])) (./chapters/2014/dec.tex
+(./solutions/2014/dec/71/solution.tex [169
 
 
 ]
 Underfull \vbox (badness 10000) detected at line 77
  []
 
-[167
+[170
 
-] [168] [169]
+] [171] [172]
 Overfull \hbox (65.12473pt too wide) in paragraph at lines 180--180
 [] 
  []
@@ -3593,16 +3608,82 @@ Overfull \hbox (65.12473pt too wide) in paragraph at lines 180--180
 Underfull \vbox (badness 10000) detected at line 196
  []
 
-[170] [171]) (./solutions/2014/dec/86/solution.tex
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[173] [174]) (./solutions/2014/dec/77/solution.tex [175
 
-)) [172
 
 ]
+Overfull \hbox (36.84111pt too wide) in alignment at lines 4--27
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 27
+ []
+
+
+Overfull \hbox (36.84111pt too wide) in alignment at lines 27--48
+ [] [] 
+ []
+
+
+Overfull \hbox (36.84111pt too wide) in alignment at lines 48--69
+ [] [] 
+ []
+
+
+Overfull \hbox (36.84111pt too wide) in alignment at lines 69--79
+ [] [] 
+ []
+
+[176
+
+] [177]) (./solutions/2014/dec/78/solution.tex [178
+
+
+]
+Underfull \vbox (badness 10000) detected at line 28
+ []
+
+[179
+
+]
+Underfull \vbox (badness 10000) detected at line 100
+ []
+
+[180] [181]) (./solutions/2014/dec/86/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+)
+(./solutions/2014/dec/90/solution.tex
+
+Package hyperref Warning: Suppressing empty link on input line 1.
+
+
+Overfull \hbox (46.1295pt too wide) in paragraph at lines 49--82
+ [] 
+ []
+
+)) [182
+
+]
+
+LaTeX Warning: Text page 183 contains only floats.
+
+
+Overfull \vbox (14.8715pt too high) has occurred while \output is active []
+
+
+
+LaTeX Warning: Text page 183 contains only floats.
+
+
+Overfull \vbox (14.8715pt too high) has occurred while \output is active []
+
+
+[183] [184]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
-
-(./gvv_ugc_linexer.aux)
+ (./gvv_ugc_linexer.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `gvv_ugc_linexer.out' has not changed.
@@ -3610,10 +3691,10 @@ Package rerunfilecheck Info: File `gvv_ugc_linexer.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
- 45719 strings out of 480608
- 1058970 string characters out of 5892806
- 1474455 words of memory out of 5000000
- 58934 multiletter control sequences out of 15000+600000
+ 45785 strings out of 480608
+ 1060068 string characters out of 5892806
+ 1474901 words of memory out of 5000000
+ 58948 multiletter control sequences out of 15000+600000
  633820 words of font info for 252 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,29n,91p,1603b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3638,10 +3719,10 @@ sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.t
 ermux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></dat
 a/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on gvv_ugc_linexer.pdf (172 pages, 1051641 bytes).
+Output written on gvv_ugc_linexer.pdf (184 pages, 1075578 bytes).
 PDF statistics:
- 3102 PDF objects out of 3580 (max. 8388607)
- 2637 compressed objects within 27 object streams
- 1525 named destinations out of 1728 (max. 500000)
+ 3197 PDF objects out of 3580 (max. 8388607)
+ 2716 compressed objects within 28 object streams
+ 1565 named destinations out of 1728 (max. 500000)
  199 words of extra memory for PDF output out of 10000 (max. 10000000)
 
