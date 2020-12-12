@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  12 DEC 2020 11:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Termux) (preloaded format=pdflatex 2020.8.26)  12 DEC 2020 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2014,7 +2014,7 @@ File: ot1txtt.fd 2000/12/15 v3.1
 pdfTeX warning: pdflatex (file /data/data/com.termux/files/home/texmf/tex/latex
 /logo/iith_logo.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-<iith_logo.pdf, id=71, 359.3425pt x 486.81876pt>
+<iith_logo.pdf, id=83, 359.3425pt x 486.81876pt>
 File: iith_logo.pdf Graphic file (type pdf)
 <use iith_logo.pdf>
 Package pdftex.def Info: iith_logo.pdf  used on input line 247.
@@ -2026,7 +2026,7 @@ LaTeX Font Info:    Font shape `OT1/txss/m/n' will be
 (Font)              scaled to size 15.95987pt on input line 247.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <17> not available
 (Font)              Font shape `OT1/txr/bx/n' tried instead on input line 247.
-<tlc.pdf, id=72, 597.51233pt x 845.0471pt>
+<tlc.pdf, id=84, 597.51233pt x 845.0471pt>
 File: tlc.pdf Graphic file (type pdf)
 <use tlc.pdf>
 Package pdftex.def Info: tlc.pdf  used on input line 247.
@@ -3544,8 +3544,11 @@ Underfull \vbox (badness 10000) detected at line 29
 
 [157
 
-]) (./solutions/2015/june/76/solution.tex [158
+]) (./solutions/2015/june/75/solution.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+)
+(./solutions/2015/june/76/solution.tex [158
 
 ]
 Underfull \vbox (badness 10000) detected at line 53
@@ -3554,22 +3557,22 @@ Underfull \vbox (badness 10000) detected at line 53
 [159
 
 ])
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
 
@@ -3669,18 +3672,85 @@ Underfull \vbox (badness 10000) detected at line 134
 
 [171
 
-] [172] [173] [174]) (./solutions/2014/dec/32/solution.tex)
-(./solutions/2014/dec/71/solution.tex [175
+] [172] [173] [174]) (./solutions/2014/dec/29/solution.tex [175
 
 
-] [176] [177]
+]
+Underfull \vbox (badness 10000) detected at line 37
+ []
+
+[176
+
+]
+Underfull \vbox (badness 10000) detected at line 104
+ []
+
+[177] [178] [179]) (./solutions/2014/dec/32/solution.tex)
+(./solutions/2014/dec/70/solution.tex
+Underfull \hbox (badness 10000) in paragraph at lines 67--69
+
+ []
+
+) [180
+
+pdfTeX warning (ext4): destination with the same identifier (name{equation.555.
+1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.555.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.555.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.555.4}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.555.1}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.557.2}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   pdfTeX warning (ext4): destination with the same identifier 
+(name{equation.557.3}) has been already used, duplicate ignored
+
+\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
+                                                  
+l.68 \begin{align*}
+                   ]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [181]
+(./solutions/2014/dec/71/solution.tex [182
+
+]
 Underfull \vbox (badness 10000) detected at line 77
  []
 
-[178
+[183
 
-
-] [179] [180]
+] [184] [185]
 Overfull \hbox (65.12473pt too wide) in paragraph at lines 180--180
 [] 
  []
@@ -3689,7 +3759,7 @@ Overfull \hbox (65.12473pt too wide) in paragraph at lines 180--180
 Underfull \vbox (badness 10000) detected at line 196
  []
 
-[181] [182]) (./solutions/2014/dec/73/solution.tex [183
+[186] [187]) (./solutions/2014/dec/73/solution.tex [188
 
 
 ]
@@ -3700,22 +3770,22 @@ Underfull \vbox (badness 10000) detected at line 31
 Underfull \vbox (badness 10000) detected at line 61
  []
 
-[184
+[189
 
 ]
 Underfull \vbox (badness 10000) detected at line 78
  []
 
-[185]) (./solutions/2014/dec/75/solution.tex [186
+[190]) (./solutions/2014/dec/75/solution.tex [191
 
 
-] [187
+] [192
 
-] [188]
+] [193]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [189])
-(./solutions/2014/dec/77/solution.tex [190
+ [194])
+(./solutions/2014/dec/77/solution.tex [195
 
 
 ]
@@ -3742,22 +3812,22 @@ Overfull \hbox (36.84111pt too wide) in alignment at lines 69--79
  [] [] 
  []
 
-[191
+[196
 
-] [192]) (./solutions/2014/dec/78/solution.tex [193
+] [197]) (./solutions/2014/dec/78/solution.tex [198
 
 
 ]
 Underfull \vbox (badness 10000) detected at line 28
  []
 
-[194
+[199
 
 ]
 Underfull \vbox (badness 10000) detected at line 100
  []
 
-[195] [196]) (./solutions/2014/dec/86/solution.tex
+[200] [201]) (./solutions/2014/dec/86/solution.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 )
@@ -3770,38 +3840,38 @@ Overfull \hbox (46.1295pt too wide) in paragraph at lines 49--82
  [] 
  []
 
-)) [197
+)) [202
 
 ]
 
-LaTeX Warning: Text page 198 contains only floats.
+LaTeX Warning: Text page 203 contains only floats.
 
 
 Overfull \vbox (14.8715pt too high) has occurred while \output is active []
 
 
 
-LaTeX Warning: Text page 198 contains only floats.
+LaTeX Warning: Text page 203 contains only floats.
 
 
 Overfull \vbox (14.8715pt too high) has occurred while \output is active []
 
 
-[198] [199]
+[203] [204]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
  (./gvv_ugc_linexer.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `gvv_ugc_linexer.out' has not changed.
-(rerunfilecheck)             Checksum: E4DBB8994779CEFB7AA0B39CD3497EEC;462.
+(rerunfilecheck)             Checksum: 77E2DB813B13011FBC8307C075F82D91;642.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 317.
  ) 
 Here is how much of TeX's memory you used:
- 45949 strings out of 480608
- 1062975 string characters out of 5892806
- 1476529 words of memory out of 5000000
- 58987 multiletter control sequences out of 15000+600000
+ 46034 strings out of 480608
+ 1064294 string characters out of 5892806
+ 1476743 words of memory out of 5000000
+ 59000 multiletter control sequences out of 15000+600000
  633820 words of font info for 252 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  60i,29n,91p,1603b,1239s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3826,10 +3896,10 @@ sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></data/data/com.t
 ermux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></dat
 a/data/com.termux/files/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on gvv_ugc_linexer.pdf (199 pages, 1106446 bytes).
+Output written on gvv_ugc_linexer.pdf (204 pages, 1122302 bytes).
 PDF statistics:
- 3414 PDF objects out of 3580 (max. 8388607)
- 2916 compressed objects within 30 object streams
- 1675 named destinations out of 1728 (max. 500000)
- 199 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3524 PDF objects out of 3580 (max. 8388607)
+ 3020 compressed objects within 31 object streams
+ 1738 named destinations out of 2073 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
